@@ -57,5 +57,18 @@ Puedes pasar como argumento la URL o la dirección IP del objetivo.
 python3 GeoTrackerIP.py -t https://example.com
 ```
 
+## Docker
+### Construir la imagen de Docker
+Para construir la imagen de Docker, navega al directorio del proyecto y ejecuta el siguiente comando:
+```bash
+docker build -t geotrackerip .
+```
+
+### Ejecutar el contenedor de Docker
+Para ejecutar el contenedor de Docker, usa el siguiente comando:
+```bash
+docker run --rm geotrackerip -t https://example.com
+```
+
 ## Licencia
 GeoTrackerIP está hecho con 💚 por JRIC2002. Vea el archivo de **Licencia** para más detalles.
