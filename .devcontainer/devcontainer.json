@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "build": "python3 install.py",
+    "test": "python3 GeoTrackerIP.py --help"
+  }
+}
